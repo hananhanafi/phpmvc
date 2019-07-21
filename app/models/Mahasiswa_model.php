@@ -30,8 +30,9 @@ class Mahasiswa_model{
         $this->db->bind('email',$_POST['email']);
         $this->db->bind('jurusan',$_POST['jurusan']);
 
-        $this->db->execute();
+        $this->db->execute();        
         return $this->db->rowCount();
+
     }
 }
 ?>
