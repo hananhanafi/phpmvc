@@ -18,7 +18,6 @@ class Flasher{
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>';
-            var_dump($_SESSION['flash']['tipe']);
             unset($_SESSION['flash']);
         }
     }
